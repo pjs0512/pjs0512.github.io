@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Introduction</title>
-    <link>http://example.com/series/</link>
+    <link>http://pjs0512.github.io/series/</link>
     <description>Recent content in Series on Introduction</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jul 2020 02:04:06 -0500</lastBuildDate><atom:link href="http://example.com/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jul 2020 02:04:06 -0500</lastBuildDate><atom:link href="http://pjs0512.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>quickstart</title>
-      <link>http://example.com/series/quickstart/</link>
+      <link>http://pjs0512.github.io/series/quickstart/</link>
       <pubDate>Sat, 25 Jul 2020 02:04:06 -0500</pubDate>
       
-      <guid>http://example.com/series/quickstart/</guid>
+      <guid>http://pjs0512.github.io/series/quickstart/</guid>
       <description></description>
     </item>
     

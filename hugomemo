@@ -1,5 +1,8 @@
 거의 콘텐츠만 수정하면됨
 
+배포할때는 
+hugo -> public을 docs폴더로
+
 이미지 파일은 
 C:\\Project\\pjs0512.github.io\\content\\en\\home\\profile.jpg
 여기다가 넣음
