@@ -1,58 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Vorstellung</title>
-    <link>http://example.com/de/tags/</link>
-    <description>Recent content in Tags on Vorstellung</description>
+    <title>Tags on 紹介</title>
+    <link>http://example.com/jp/tags/</link>
+    <description>Recent content in Tags on 紹介</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de</language>
-    <lastBuildDate>Mon, 13 Nov 2017 11:58:39 -0500</lastBuildDate>
-    
-	<atom:link href="http://example.com/de/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>jp</language>
+    <lastBuildDate>Mon, 13 Nov 2017 11:58:39 -0500</lastBuildDate><atom:link href="http://example.com/jp/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ipsum</title>
-      <link>http://example.com/de/tags/ipsum/</link>
+      <link>http://example.com/jp/tags/ipsum/</link>
       <pubDate>Mon, 13 Nov 2017 11:58:39 -0500</pubDate>
       
-      <guid>http://example.com/de/tags/ipsum/</guid>
+      <guid>http://example.com/jp/tags/ipsum/</guid>
       <description></description>
     </item>
     
     <item>
       <title>words</title>
-      <link>http://example.com/de/tags/words/</link>
+      <link>http://example.com/jp/tags/words/</link>
       <pubDate>Mon, 13 Nov 2017 11:58:39 -0500</pubDate>
       
-      <guid>http://example.com/de/tags/words/</guid>
+      <guid>http://example.com/jp/tags/words/</guid>
       <description></description>
     </item>
     
     <item>
       <title>code</title>
-      <link>http://example.com/de/tags/code/</link>
+      <link>http://example.com/jp/tags/code/</link>
       <pubDate>Mon, 06 Nov 2017 12:04:06 -0500</pubDate>
       
-      <guid>http://example.com/de/tags/code/</guid>
+      <guid>http://example.com/jp/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>coffee</title>
-      <link>http://example.com/de/tags/coffee/</link>
+      <link>http://example.com/jp/tags/coffee/</link>
       <pubDate>Wed, 01 Nov 2017 12:04:16 -0500</pubDate>
       
-      <guid>http://example.com/de/tags/coffee/</guid>
+      <guid>http://example.com/jp/tags/coffee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>images</title>
-      <link>http://example.com/de/tags/images/</link>
+      <link>http://example.com/jp/tags/images/</link>
       <pubDate>Wed, 01 Nov 2017 12:04:16 -0500</pubDate>
       
-      <guid>http://example.com/de/tags/images/</guid>
+      <guid>http://example.com/jp/tags/images/</guid>
       <description></description>
     </item>
     

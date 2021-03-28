@@ -15,6 +15,7 @@ Theme Features - Introduction
 
 
 
+        
         <meta property="og:title" content="Theme Features - Introduction" />
 <meta property="og:type" content="website" />
 <meta property="og:description" content="Website Description"/>
@@ -39,7 +40,7 @@ Theme Features - Introduction
 
 
 
-<link rel="stylesheet" href="/css/main.min.daa833377fb1636f8cbfa65c601050bb5475623deb7aa6e6fdde94a064a6185d.css" integrity="sha256-2qgzN3&#43;xY2&#43;Mv6ZcYBBQu1R1Yj3reqbm/d6UoGSmGF0=" crossorigin="anonymous" media="screen">
+<link rel="stylesheet" href="/css/main.min.84f93172277cdc39bfd0f5477be31c4c7a2f21fbab96f9bb0604dc9aeece07bd.css" integrity="sha256-hPkxcid83Dm/0PVHe&#43;McTHovIfurlvm7BgTcmu7OB70=" crossorigin="anonymous" media="screen">
 
 
 
@@ -108,7 +109,9 @@ Theme Features - Introduction
                 
                   <a class="navbar-item" href="http://example.com/projects/">
                   
-                  Project
+                  
+                  Projects
+                  
                   
                   </a>
                 
@@ -145,19 +148,19 @@ Theme Features - Introduction
             <a class="navbar-item" href="/#contact">Contact</a>
             
             
-
-            
-            
-            
-            
-            <a class="navbar-item" href="http://example.com/es/">Español</a>
-            
-            
-            
-            <a class="navbar-item" href="http://example.com/de/">Deutsch</a>
-            
-            
-
+            <div>
+                
+                
+                
+                
+                <a class="navbar-item" href="http://example.com/jp/">日本語</a>
+                
+                
+                
+                <a class="navbar-item" href="http://example.com/kr/">한국어</a>
+                
+                
+            </div>
             
             
         </div>
@@ -197,56 +200,51 @@ Theme Features - Introduction
             <span class="hidden">Pinterest</span>
         </a>
         
-        
-        <a class="icon-google-plus" href="https://plus.google.com/share?url=http%3a%2f%2fexample.com%2fblog%2fconfiguration%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-            <i class="fab fa-google-plus-g"></i>
-            <span class="hidden">Google+</span>
-        </a>
-        
     </div>
     
     
+      
     
-    <p>
-        Tag:
-        
-        <a href="/tags/code">code</a>
-        
-    </p>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+      
+     <p>
+         Series: 
+          
+           <a href="/series/quickstart">
+             quickstart</a>
+         
+        </p>
+      
+    
+      
+      
+     <p>
+         Tags: 
+          
+           <a href="/tags/code">
+             code</a>
+         
+        </p>
+      
+    
+      
     
 </div>
 
 <div class="container markdown top-pad">
     <p>Here are some helpful tips for setting up this theme.</p>
-<h2 id="syntax-highlighting">Syntax Highlighting</h2>
-<p>Introduction allows the use of Hugo&rsquo;s rich built-in syntax highlighting capabilities. See <a href="https://gohugo.io/content-management/syntax-highlighting/">Syntax Highlighting</a> in the Hugo docs.</p>
-<p>Below is an example configuration for Highlight. See <a href="https://gohugo.io/getting-started/configuration-markup#highlight">Highlight in the Hugo docs</a> for more.</p>
-<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[markup]
-  [markup.highlight]
-    codeFences = <span style="color:#007020;font-weight:bold">true</span>
-    guessSyntax = <span style="color:#007020;font-weight:bold">false</span>
-    hl_Lines = <span style="color:#4070a0">&#34;&#34;</span>
-    lineNoStart = <span style="color:#40a070">1</span>
-    lineNos = <span style="color:#007020;font-weight:bold">false</span>
-    lineNumbersInTable = <span style="color:#007020;font-weight:bold">true</span>
-    noClasses = <span style="color:#007020;font-weight:bold">true</span>
-    <span style="color:#60a0b0;font-style:italic"># For styles, see https://xyproto.github.io/splash/docs/longer/all.html</span>
-    style = <span style="color:#4070a0">&#34;friendly&#34;</span>
-    tabWidth = <span style="color:#40a070">4</span>
-</code></pre></div><h2 id="shortcodes">Shortcodes</h2>
-<p><a href="https://gohugo.io/templates/shortcode-templates/">Custom shortcodes</a> can be added to a <code>layouts/shortcodes/</code> directory in your site root. Below, I use two custom shortcodes to display a data file: the current configuration file for this site! See the <a href="https://github.com/victoriadrake/hugo-theme-introduction/blob/master/exampleSite/content/en/blog/configuration.md">source for this page</a> to understand how to use shortcodes.</p>
-<h2 id="show-html-in-posts">Show HTML in Posts</h2>
-<p>To ensure Hugo renders any HTML that your shortcode or other additions like Font Awesome uses in posts, make sure these lines for <a href="https://gohugo.io/getting-started/configuration-markup">the Goldmark renderer</a> are in your <code>config.toml</code>:</p>
-<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[markup]
-defaultMarkdownHandler = <span style="color:#4070a0">&#34;goldmark&#34;</span>
 
-[markup.goldmark]
-
-[markup.goldmark.renderer]
-unsafe = <span style="color:#007020;font-weight:bold">true</span>
-</code></pre></div><h2 id="configuration">Configuration</h2>
-<p>Introduction can be easily configured using <a href="https://gohugo.io/getting-started/configuration/">Hugo&rsquo;s configuration file</a>. You can copy the <code>config.toml</code> in the <code>exampleSite/</code> to your site root get started.</p>
-<p>Here are all the options included in the configuration file for this example site!</p>
+<h2 id="configuration" class="anchor-link"><a href="#configuration">Configuration</a></h2>
+<p>Most of what you&rsquo;ll want to configure is demonstrated in the exampleSite <code>config.toml</code>. This is <a href="https://gohugo.io/getting-started/configuration/">Hugo&rsquo;s configuration file</a>. You can copy the <code>config.toml</code> in the <code>exampleSite/</code> to your site root get started.</p>
+<details><summary>Here are all the options included in the configuration file for this example site!</summary>
 <div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">
 baseURL                          = <span style="color:#4070a0">&#34;http://example.com/&#34;</span>   <span style="color:#60a0b0;font-style:italic"># Your domain name. Must end with &#34;/&#34;</span>
 theme                            = <span style="color:#4070a0">&#34;introduction&#34;</span>
@@ -255,7 +253,7 @@ DefaultContentLanguage           = <span style="color:#4070a0">&#34;en&#34;</spa
 <span style="color:#60a0b0;font-style:italic"># googleAnalytics                 = &#34;&#34;                     # https://gohugo.io/templates/internal/#google-analytics</span>
 
 [params]
-    themeStyle                   = <span style="color:#4070a0">&#34;light&#34;</span>                 <span style="color:#60a0b0;font-style:italic"># Choose &#34;light&#34; or &#34;dark&#34;</span>
+    themeStyle                   = <span style="color:#4070a0">&#34;auto&#34;</span>                  <span style="color:#60a0b0;font-style:italic"># Choose &#34;light&#34; or &#34;dark&#34; or &#34;auto&#34;</span>
     favicon                      = <span style="color:#4070a0">&#34;/img/fav.ico&#34;</span>          <span style="color:#60a0b0;font-style:italic"># Path to favicon file</span>
     showRSSButton                = <span style="color:#007020;font-weight:bold">false</span>                   <span style="color:#60a0b0;font-style:italic"># Show rss button in navigation</span>
     fadeIn                       = <span style="color:#007020;font-weight:bold">true</span>                    <span style="color:#60a0b0;font-style:italic"># Turn on/off the fade-in effect</span>
@@ -263,16 +261,19 @@ DefaultContentLanguage           = <span style="color:#4070a0">&#34;en&#34;</spa
     dateFormat                   = <span style="color:#4070a0">&#34;Jan 2, 2006&#34;</span>
     email                        = <span style="color:#4070a0">&#34;youremail@email.com&#34;</span>   <span style="color:#60a0b0;font-style:italic"># E-mail address for contact section</span>
     <span style="color:#60a0b0;font-style:italic"># customCSS                  = [&#34;foo.css&#34;]             # Include custom css files placed under assets/</span>
+    <span style="color:#60a0b0;font-style:italic"># customJS                   = [&#34;foo.js&#34;]              # Include custom JavaScript files placed under assets/</span>
+    <span style="color:#60a0b0;font-style:italic"># plausible                  = true                    # Use Plausible analytics (requires an account at Plausible.io)</span>
 
     <span style="color:#60a0b0;font-style:italic"># Configure the home page</span>
     [params.home]
         introHeight              = <span style="color:#4070a0">&#34;fullheight&#34;</span>            <span style="color:#60a0b0;font-style:italic"># Input either &#34;medium&#34; or &#34;large&#34; or &#34;fullheight&#34;</span>
         showLatest               = <span style="color:#007020;font-weight:bold">true</span>                    <span style="color:#60a0b0;font-style:italic"># Show latest blog post summary</span>
         showAllPosts             = <span style="color:#007020;font-weight:bold">false</span>                   <span style="color:#60a0b0;font-style:italic"># Set true to list all posts on home page, or set false to link to separate blog list page</span>
+        allPostsArchiveFormat    = <span style="color:#007020;font-weight:bold">true</span>                    <span style="color:#60a0b0;font-style:italic"># show all posts in an archive format</span>
         numberOfProjectsToShow   = <span style="color:#40a070">3</span>                       <span style="color:#60a0b0;font-style:italic"># Maximum number of projects to show on home page. Unset or comment out to show all projects</span>
         localTime                = <span style="color:#007020;font-weight:bold">true</span>                    <span style="color:#60a0b0;font-style:italic"># Show your current local time in contact section</span>
         timeZone                 = <span style="color:#4070a0">&#34;America/Los_Angeles&#34;</span>   <span style="color:#60a0b0;font-style:italic"># Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones</span>
-        timeFormat               = <span style="color:#4070a0">&#34;h:mm A&#34;</span>                <span style="color:#60a0b0;font-style:italic"># https://momentjs.com/docs/#/displaying/format/</span>
+        timeFormat               = <span style="color:#4070a0">&#34;en-US&#34;</span>                 <span style="color:#60a0b0;font-style:italic"># Language specific format to use</span>
     [params.projects]
         useTwoColumns            = <span style="color:#007020;font-weight:bold">false</span>                   <span style="color:#60a0b0;font-style:italic"># Use a layout with two columns instead of three</span>
 
@@ -280,7 +281,6 @@ DefaultContentLanguage           = <span style="color:#4070a0">&#34;en&#34;</spa
     [params.share]
         twitter                  = <span style="color:#007020;font-weight:bold">true</span>
         facebook                 = <span style="color:#007020;font-weight:bold">true</span>
-        googlePlus               = <span style="color:#007020;font-weight:bold">true</span>
         pinterest                = <span style="color:#007020;font-weight:bold">true</span>
 
     <span style="color:#60a0b0;font-style:italic"># Social icons appear in introduction and contact section. Add as many more as you like.</span>
@@ -323,6 +323,7 @@ DefaultContentLanguage           = <span style="color:#4070a0">&#34;en&#34;</spa
 <span style="color:#60a0b0;font-style:italic"># You can add more by yourself</span>
 [taxonomies]
   tag = <span style="color:#4070a0">&#34;tags&#34;</span>
+  series = <span style="color:#4070a0">&#34;series&#34;</span>
 
 [markup]
   defaultMarkdownHandler = <span style="color:#4070a0">&#34;goldmark&#34;</span>
@@ -352,28 +353,58 @@ DefaultContentLanguage           = <span style="color:#4070a0">&#34;en&#34;</spa
             description  = <span style="color:#4070a0">&#34;Website Description&#34;</span>   <span style="color:#60a0b0;font-style:italic"># Max 160 characters show in search results</span>
             <span style="color:#60a0b0;font-style:italic"># footerText   = &#34;&#34;                      # Text to override default footer text (markdown allowed)</span>
 
-    [languages.es]
-        languageName     = <span style="color:#4070a0">&#34;Español&#34;</span>
-        languageCode     = <span style="color:#4070a0">&#34;es&#34;</span>
-        contentDir       = <span style="color:#4070a0">&#34;content/es&#34;</span>
+    [languages.kr]
+        languageName     = <span style="color:#4070a0">&#34;한국어&#34;</span>
+        languageCode     = <span style="color:#4070a0">&#34;kr&#34;</span>
+        contentDir       = <span style="color:#4070a0">&#34;content/kr&#34;</span>
         weight           = <span style="color:#40a070">1</span>
-        title            = <span style="color:#4070a0">&#34;Introducción&#34;</span>
-        [languages.es.params]
+        title            = <span style="color:#4070a0">&#34;소개&#34;</span>
+        [languages.kr.params]
             description  = <span style="color:#4070a0">&#34;Descripcion del sitio web&#34;</span>
             <span style="color:#60a0b0;font-style:italic"># footerText   = &#34;&#34;</span>
 
-    [languages.de]
-        languageName     = <span style="color:#4070a0">&#34;Deutsch&#34;</span>
-        languageCode     = <span style="color:#4070a0">&#34;de&#34;</span>
-        contentDir       = <span style="color:#4070a0">&#34;content/de&#34;</span>
+    [languages.jp]
+        languageName     = <span style="color:#4070a0">&#34;日本語&#34;</span>
+        languageCode     = <span style="color:#4070a0">&#34;jp&#34;</span>
+        contentDir       = <span style="color:#4070a0">&#34;content/jp&#34;</span>
         weight           = <span style="color:#40a070">2</span>
-        title            = <span style="color:#4070a0">&#34;Vorstellung&#34;</span>
-        [languages.de.params]
+        title            = <span style="color:#4070a0">&#34;紹介&#34;</span>
+        [languages.jp.params]
             dateFormat   = <span style="color:#4070a0">&#34;2. January 2006&#34;</span>
             description  = <span style="color:#4070a0">&#34;Beschreibung der Webseite&#34;</span>
             <span style="color:#60a0b0;font-style:italic"># footerText   = &#34;&#34;</span>
 
 
+</code></pre></div></details>
+
+<h2 id="syntax-highlighting" class="anchor-link"><a href="#syntax-highlighting">Syntax Highlighting</a></h2>
+<p>Introduction allows the use of Hugo&rsquo;s rich built-in syntax highlighting capabilities. See <a href="https://gohugo.io/content-management/syntax-highlighting/">Syntax Highlighting</a> in the Hugo docs.</p>
+<p>Below is an example configuration for Highlight. See <a href="https://gohugo.io/getting-started/configuration-markup#highlight">Highlight in the Hugo docs</a> for more.</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[markup]
+  [markup.highlight]
+    codeFences = <span style="color:#007020;font-weight:bold">true</span>
+    guessSyntax = <span style="color:#007020;font-weight:bold">false</span>
+    hl_Lines = <span style="color:#4070a0">&#34;&#34;</span>
+    lineNoStart = <span style="color:#40a070">1</span>
+    lineNos = <span style="color:#007020;font-weight:bold">false</span>
+    lineNumbersInTable = <span style="color:#007020;font-weight:bold">true</span>
+    noClasses = <span style="color:#007020;font-weight:bold">true</span>
+    <span style="color:#60a0b0;font-style:italic"># For styles, see https://xyproto.github.io/splash/docs/longer/all.html</span>
+    style = <span style="color:#4070a0">&#34;friendly&#34;</span>
+    tabWidth = <span style="color:#40a070">4</span>
+</code></pre></div>
+<h2 id="shortcodes" class="anchor-link"><a href="#shortcodes">Shortcodes</a></h2>
+<p><a href="https://gohugo.io/templates/shortcode-templates/">Custom shortcodes</a> can be added to a <code>layouts/shortcodes/</code> directory in your site root. Below, I use two custom shortcodes to display a data file: the current configuration file for this site! See the <a href="https://github.com/victoriadrake/hugo-theme-introduction/blob/master/exampleSite/content/en/blog/configuration.md">source for this page</a> to understand how to use shortcodes.</p>
+
+<h2 id="show-html-in-posts" class="anchor-link"><a href="#show-html-in-posts">Show HTML in Posts</a></h2>
+<p>To ensure Hugo renders any HTML that your shortcode or other additions like Font Awesome uses in posts, make sure these lines for <a href="https://gohugo.io/getting-started/configuration-markup">the Goldmark renderer</a> are in your <code>config.toml</code>:</p>
+<div class="highlight"><pre style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[markup]
+defaultMarkdownHandler = <span style="color:#4070a0">&#34;goldmark&#34;</span>
+
+[markup.goldmark]
+
+[markup.goldmark.renderer]
+unsafe = <span style="color:#007020;font-weight:bold">true</span>
 </code></pre></div>
 </div>
 
@@ -412,7 +443,10 @@ DefaultContentLanguage           = <span style="color:#4070a0">&#34;en&#34;</spa
         
 
 
-<script src="http://example.com/js/bundle.e6934e69d06bb8a213134f4c1468f9478bb7755e786dfb60e3c5a917c5335805.js" integrity="sha256-5pNOadBruKITE09MFGj5R4u3dV54bftg48WpF8UzWAU="></script>
+<script src="http://example.com/js/bundle.f6c977229f84ae8df89c8647befcf3a170b8157f180a3f0afa4620b19a336994.js" integrity="sha256-9sl3Ip&#43;Ero34nIZHvvzzoXC4FX8YCj8K&#43;kYgsZozaZQ="></script>
+
+
+
 
 
 

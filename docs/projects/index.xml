@@ -5,18 +5,14 @@
     <link>http://example.com/projects/</link>
     <description>Recent content in Projects on Introduction</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="http://example.com/projects/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="http://example.com/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Photography</title>
       <link>http://example.com/projects/photography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://example.com/projects/photography/</guid>
-      <description>Sometimes I take pictures This project is about the pictures I take. Sometimes, they are pictures of cats.</description>
+      <description>Sometimes I take picturesThis project is about the pictures I take. Sometimes, they are pictures of cats.</description>
     </item>
     
     <item>
