@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on 소개</title>
+    <title>블로그 on 소개</title>
     <link>http://pjs0512.github.io/kr/blog/</link>
-    <description>Recent content in Blog on 소개</description>
+    <description>Recent content in 블로그 on 소개</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kr</language>
     <lastBuildDate>Mon, 13 Nov 2017 11:58:39 -0500</lastBuildDate><atom:link href="http://pjs0512.github.io/kr/blog/index.xml" rel="self" type="application/rss+xml" />
