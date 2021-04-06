@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Website Description">
+<title>
+Blog - Introduction
+</title>
+
+<link href="/blog/index.xml" rel="alternate" type="application/rss+xml" title="Introduction" />
+
+        
+        <meta property="og:title" content="Blog - Introduction" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Website Description"/>
+<meta property="og:url" content="http://pjs0512.github.io/blog/"/>
+<meta property="og:site_name" content="Introduction"/>
+
+
+
+
+<meta property="og:image" content="http://pjs0512.github.io/home/profile.jpg"/>
+
+
+
+
+        
+<link rel="shortcut icon" href="/img/fav.ico">
+
+
+        
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.84f93172277cdc39bfd0f5477be31c4c7a2f21fbab96f9bb0604dc9aeece07bd.css" integrity="sha256-hPkxcid83Dm/0PVHe&#43;McTHovIfurlvm7BgTcmu7OB70=" crossorigin="anonymous" media="screen">
+
+
+
+
+
+        
+        
+        
+        
+    </head>
+    <body>
+        <section id="top" class="section">
+            
+            <div class="container hero ">
+                
+                <h1 class="bold-title is-1">Blog</h1>
+                
+            </div>
+            
+            <div class="section ">
+                
+<div class="container">
+
+    <hr>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu " id="navMenu">
+            
+            
+            
+            
+            <a class="navbar-item" href="/">main</a>
+            
+
+            
+            
+
+            
+                
+            
+
+            
+                
+            
+
+            
+            
+            
+            <a class="navbar-item" href="/#about">About</a>
+            
+            
+            
+            
+            
+                
+                
+                
+                
+                  <a class="navbar-item" href="http://pjs0512.github.io/projects/">
+                  
+                  
+                  Projects
+                  
+                  
+                  </a>
+                
+                
+            
+            
+            
+            
+            
+                
+                
+                
+                
+                
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            <a class="navbar-item test" onclick="languageLinkAction('http:\/\/pjs0512.github.io\/jp\/')">日本語</a>
+            
+            
+            
+            <a class="navbar-item test" onclick="languageLinkAction('http:\/\/pjs0512.github.io\/kr\/')">한국어</a>
+            
+            
+            
+            
+        </div>
+    </nav>
+    <hr>
+</div>
+<script>
+    const languageLinkAction = (newPath) => {
+        const langList = [
+            '', 'kr', 'jp'
+        ]
+        newPath = (new URL(newPath)).pathname.split('/')[1]
+        let path = window.location.pathname.split('/')
+        if (langList.filter(l => l === path[1]).length) {
+            path[1] = newPath
+        } else {
+            path.splice(1, 0, newPath);
+        }
+        window.location.pathname = path.join('/')
+        console.log(path.join('/'))
+        return;
+    }
+</script>
+
+
+
+                
+    <div class="container markdown top-pad">
+        <p>Here is some introduction text for my blog. You can set this text in the <code>/blog/_index.md</code> file. This page uses the <code>/layouts/blog/list.html</code> template.</p>
+
+    </div>
+    <div class="container">
+        
+        <h2 class="title is-2 top-pad">Latest Post</h2>
+            
+            <div class="summary">Jul 25, 2020
+                <h3 class="title is-3 strong-post-title">
+                    <a href="http://pjs0512.github.io/blog/configuration/">
+                        Theme Features
+                    </a>
+                </h3>
+                <div class="markdown">
+                    Here are some helpful tips for setting up this theme.
+ConfigurationMost of what you&rsquo;ll want to configure is demonstrated in the exampleSite config.toml. This is Hugo&rsquo;s configuration file. You can copy the config.toml in the exampleSite/ to your site root get started.
+Here are all the options included in the configuration file for this example site!baseURL = &#34;http://pjs0512.github.io/&#34; # Your domain name. Must end with &#34;/&#34; theme = &#34;introduction&#34; DefaultContentLanguage = &#34;en&#34; # Default language for multilingual sites # disqusshortname = &#34;&#34; # https://gohugo.
+                    
+                    <a href="http://pjs0512.github.io/blog/configuration/">Read more</a>
+                    
+                </div>
+            </div>
+            
+        
+        <h2 class="title is-2 top-pad">All Posts</h2>
+        
+            <section>
+   
+   
+     
+      
+    
+  
+
+  
+    
+    
+      
+          <h2 class="title is-2 top-pad">2020</h2>
+      
+    <li class="post-item">
+      
+          <span>Jul 25, 2020</span> -
+      
+      <span><a href="http://pjs0512.github.io/blog/configuration/">Theme Features</a></span>
+    </li>
+      
+    
+  
+    
+    
+      
+          <h2 class="title is-2 top-pad">2019</h2>
+      
+    <li class="post-item">
+      
+          <span>May 30, 2019</span> -
+      
+      <span><a href="http://pjs0512.github.io/blog/long-form-post/"><strong>Long</strong> Form Post!</a></span>
+    </li>
+      
+    
+  
+    
+    
+      
+          <h2 class="title is-2 top-pad">2017</h2>
+      
+    <li class="post-item">
+      
+          <span>Nov 13, 2017</span> -
+      
+      <span><a href="http://pjs0512.github.io/blog/hipster-ipsum/">Hipster Ipsum</a></span>
+    </li>
+      
+    
+  
+    
+    
+      
+    <li class="post-item">
+      
+          <span>Nov 6, 2017</span> -
+      
+      <span><a href="http://pjs0512.github.io/blog/startup-ipsum/">Startup Ipsum</a></span>
+    </li>
+      
+    
+  
+    
+    
+      
+    <li class="post-item">
+      
+          <span>Nov 1, 2017</span> -
+      
+      <span><a href="http://pjs0512.github.io/blog/coffee-ipsum/">Coffee Ipsum</a></span>
+    </li>
+      
+    
+  
+    
+     
+</section>
+        
+    </div>
+
+
+                
+                <div class="container">
+    <hr>
+</div>
+<div class="container has-text-centered top-pad">
+    <a href="#top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div>
+
+<div class="container">
+    <hr>
+</div>
+
+                <div class="section" id="footer">
+    <div class="container has-text-centered">
+    
+        <span class="footer-text">
+            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i></a> by open source contributors.
+        </span>
+    
+    </div>
+</div>
+
+                
+            </div>
+        </section>
+        
+        
+
+
+<script src="http://pjs0512.github.io/js/bundle.f6c977229f84ae8df89c8647befcf3a170b8157f180a3f0afa4620b19a336994.js" integrity="sha256-9sl3Ip&#43;Ero34nIZHvvzzoXC4FX8YCj8K&#43;kYgsZozaZQ="></script>
+
+
+
+
+
+
+        
+        
+        
+        
+    </body>
+</html>

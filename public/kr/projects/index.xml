@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>프로젝트 on 소개</title>
+    <link>http://pjs0512.github.io/kr/projects/</link>
+    <description>Recent content in 프로젝트 on 소개</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>kr</language><atom:link href="http://pjs0512.github.io/kr/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fotografía</title>
+      <link>http://pjs0512.github.io/kr/projects/photography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://pjs0512.github.io/kr/projects/photography/</guid>
+      <description>A veces tomo fotografíasEste proyecto es sobre fotografías que tomo. A veces, son fotos de gatos.</description>
+    </item>
+    
+    <item>
+      <title>Diseño</title>
+      <link>http://pjs0512.github.io/kr/projects/design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://pjs0512.github.io/kr/projects/design/</guid>
+      <description>Este tema fue diseñado por Victoria Drake. Ve, explora! 💪
+Si deseas usarlo en tu sitio web, revisa la sección al final de la página principal. 👍</description>
+    </item>
+    
+    <item>
+      <title>Escribiendo</title>
+      <link>http://pjs0512.github.io/kr/projects/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://pjs0512.github.io/kr/projects/writing/</guid>
+      <description>Aromatic aroma con panna, crema so coffee robust coffee barista, café au lait trifecta that strong blue mountain cortado aftertaste. Aroma extraction french press, skinny sweet, blue mountain cup roast barista, beans, extra cappuccino mug crema strong.
+To go viennese cream to go, flavour, so mocha as, carajillo iced et a siphon froth. Aged, eu, cup, brewed aroma kopi-luwak, coffee, id viennese french press brewed grounds acerbic froth. Decaffeinated acerbic, spoon beans seasonal, french press café au lait mazagran roast chicory, pumpkin spice galão as fair trade, dark irish cup ristretto half and half whipped shop.</description>
+    </item>
+    
+  </channel>
+</rss>
