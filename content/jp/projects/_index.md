@@ -1,6 +1,6 @@
 ---
-title: "Projekte"
+title: "プロジェクト"
 weight: 10
 ---
 
-Ein Einleitungstext für meinen Projekte
+今までやったプロジェクトを整理しました。

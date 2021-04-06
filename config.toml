@@ -8,17 +8,17 @@ DefaultContentLanguage           = "en"                    # Default language fo
     themeStyle                   = "auto"                  # Choose "light" or "dark" or "auto"
     favicon                      = "/img/fav.ico"          # Path to favicon file
     showRSSButton                = false                   # Show rss button in navigation
-    fadeIn                       = true                    # Turn on/off the fade-in effect
+    fadeIn                       = false                    # Turn on/off the fade-in effect
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
     dateFormat                   = "Jan 2, 2006"
-    email                        = "youremail@email.com"   # E-mail address for contact section
+    email                        = "printpjs@gmail.com"   # E-mail address for contact section
     # customCSS                  = ["foo.css"]             # Include custom css files placed under assets/
     # customJS                   = ["foo.js"]              # Include custom JavaScript files placed under assets/
     # plausible                  = true                    # Use Plausible analytics (requires an account at Plausible.io)
 
     # Configure the home page
     [params.home]
-        introHeight              = "fullheight"            # Input either "medium" or "large" or "fullheight"
+        introHeight              = "medium"            # Input either "medium" or "large" or "fullheight"
         showLatest               = true                    # Show latest blog post summary
         showAllPosts             = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
         allPostsArchiveFormat    = true                    # show all posts in an archive format
@@ -43,7 +43,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         icon  = "twitter" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]
-        url   = "https://facebook.com/"
+        url   = "https://www.facebook.com/profile.php?id=10008616571915"
         icon  = "facebook-f" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]
@@ -51,14 +51,9 @@ DefaultContentLanguage           = "en"                    # Default language fo
         icon  = "linkedin-in" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]
-        url = "mailto:youremail@email.com"  # For a direct email link, use "mailto:test@example.org".
-        icon = "paper-plane" # icon name without the 'fa-'
-        icon_pack = "fas"
-    [[params.social]]
-        url   = "https://mastodon.social/"
-        icon  = "mastodon" # icon name without the 'fa-'
+        url   = "https://github.com/pjs0512"
+        icon  = "github" # icon name without the 'fa-'
         icon_pack = "fab"
-        html_attributes = "rel=\"me\"" # Add rel attribute for Mastodon profile link verification
 
 
 # If you don't want to use the default menu, you can define one by yourself

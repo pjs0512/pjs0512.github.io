@@ -4,14 +4,15 @@ image: "profile.jpg"
 weight: 8
 ---
 
-This is **Introduction**, a minimalist website theme made for [Hugo](https://gohugo.io).
+**Born in Gwangju, Korea, graduated from Daegu University, and currently working as a web engineer at KDDI Web Communications.**
 
 ### Features
+* 1995-12-14 Born
+* 2014-2019 Youngjin Specialized
+* 2015-2017 4.2-inch mortar, 95th Regiment Headquarters, 31st Division
+* 2019- present KDDI Web Communications in Japan
+* 2021- Bachelor of Science in Computer Science, Korea National Open University
 
-* Responsive display on any size screen
-* Light and Dark themes right out of the box
-* Multilingual - supports side-by-side content in multiple languages
-* Any number of custom index page sections from Markdown files
-* _Projects_ section with any number of projects: highly configurable as a photo gallery, modals, or external links
-* _Blog_ section with optional _Latest Post_, on the main page or as a separate section
-* Styled Markdown throughout with support for Hugo's syntax highlighting
+### certificate
+* 2016 JLPT N1
+* 2021-04-01 AWS cloud practitioner

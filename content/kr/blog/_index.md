@@ -1,6 +1,6 @@
 ---
-title: "Blog"
+title: "블로그"
 weight: 20
 ---
 
-Este es un texto introductorio para mi blog.
+블로그를 정리 해 보았습니다.

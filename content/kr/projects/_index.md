@@ -1,6 +1,6 @@
 ---
-title: "Proyectos"
+title: "프로젝트"
 weight: 10
 ---
 
-Este es un texto introductorio para mis proyectos.
+지금까지 한 프로젝트르 소개합니다.

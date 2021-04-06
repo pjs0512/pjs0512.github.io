@@ -1,6 +1,6 @@
 ---
-title: "Blog"
+title: "ブログ"
 weight: 20
 ---
 
-Ein Einleitungstext für meinen Blog
+記事があります。
